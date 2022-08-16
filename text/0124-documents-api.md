@@ -170,12 +170,12 @@ Get a document using its unique id.
 
 | Parameters               | Type                     | Required |
 |--------------------------|--------------------------|----------|
-| `index_uid`              | String                   | true     |
+| `index_uid`              | Integer                  | true     |
 | `document_id`            | String / `null`          | true     |
 
 ###### 3.1.2.1.1. `index_uid`
 
-- Type: String
+- Type: Integer
 - Required: True
 
 Unique identifier of an index.
@@ -427,7 +427,7 @@ Delete one document based on its unique id.
 | Field                    | Type                     | Required |
 |--------------------------|--------------------------|----------|
 | `index_uid`              | String                   | True     |
-| `document_id`            | String                   | True     |
+| `document_id`            | Integer                  | True     |
 
 ###### 3.1.6.1.1. `index_uid`
 
